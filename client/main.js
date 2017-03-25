@@ -11,6 +11,6 @@ Meteor.startup(() => {
         let players = Players.find({}, {sort: {score: -1}}).fetch();
         let title = 'Score Keep';
 		let subtitle = 'Created by Simon Holm';
-        ReactDOM.render(<App title={title} players={players}/>, document.getElementById('app'));
+        ReactDOM.render(<App title={title} subtitle={subtitle} players={players}/>, document.getElementById('app'));
     });
 });
