@@ -14,17 +14,21 @@
 }
 
 .item--position-1 {
-	background: mediumspringgreen;
+	background: $green;
+	border-color: $green-alt;
 }
 
 .item--position-2 {
-	background: lightblue;
+	background: $blue;
+	border-color: $blue-alt;
 }
 
 .item--position-3 {
-	background: palevioletred;
+	background: $red;
+	border-color: $red-alt;
 }
 
 .item--position-4 {
 	background: lightgray;
+	border-color: darken(lightgray, 15%);
 }

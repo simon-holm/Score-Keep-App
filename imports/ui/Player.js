@@ -12,7 +12,7 @@ export default class Player extends React.Component {
 					<div>
 						<h3 className="player__name">{player.name}</h3>
 						<p className="player__stats">
-						{player.position} place with {player.score} point(s).
+						{player.position} place - {player.score} point(s).
 						</p>
 					</div>
 					<div className="player__actions">
